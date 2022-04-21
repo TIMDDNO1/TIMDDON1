@@ -1,0 +1,24 @@
+
+        body{
+            background-color: blanchedalmond;
+            color: brown;
+        }
+        h1{
+            color: yellow;
+    
+        }
+        header{
+            background-color: blue;
+        }
+        nav{
+            background-color: brown;
+        }
+        main{
+            background-color: gold;
+        }
+       footer{
+           background-color: rgb(4, 85, 85);
+       }
+        section{
+            background-color: lightsteelblue;
+        }

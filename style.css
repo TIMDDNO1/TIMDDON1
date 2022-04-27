@@ -1,24 +1,61 @@
+@charset "utf_8";
 
-        body{
-            background-color: blanchedalmond;
-            color: brown;
-        }
-        h1{
-            color: yellow;
-    
-        }
-        header{
-            background-color: blue;
-        }
-        nav{
-            background-color: brown;
-        }
-        main{
-            background-color: gold;
-        }
-       footer{
-           background-color: rgb(4, 85, 85);
-       }
-        section{
-            background-color: lightsteelblue;
-        }
+body{
+    background: #fbf9cc url() repeat-x;
+
+
+    margin: 0px;
+}
+.h{
+  border-radius: 5px 0 0 5px ;  
+}
+.h-sud{
+    padding:10px ;
+    background-color: #fbf9cc;
+    color: #ff705d;
+    border-right: 10px;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+}
+h1{
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid #95dbbd;
+    background-color: #6fbb9a;
+    color: #fff;
+    font-size: 300%;
+    line-height: 1;
+    text-shadow: 1px 1px 2px #307657;
+    background-image: linear-gradient(to bottom,#6fbb9a,#4a9d79);
+    font-family: 'Limelinght',cursive;
+}
+h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1 dotted #94c8b1;
+    border-left: 10px solid #d0e35b;
+    color: #6fbb9a;
+}
+a{
+    color: #df4839;
+}
+a:hover{
+    color: #ff705b;
+    text-decoration: none;
+}
+header,nav,footer{
+    text-align: center;
+}
+.round{
+    border-radius: 50%;
+}     
+main{
+    width: 80%;
+    background-color: #fff;
+    margin:0px auto;
+    padding: 40px 80px;
+    border: 1px solid #f6bb9e;
+}
+#container section + section{
+    margin-top: 80px;
+}

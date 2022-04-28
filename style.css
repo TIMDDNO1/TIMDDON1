@@ -1,10 +1,14 @@
 @charset "utf_8";
-
 body{
-    background: #fbf9cc url() repeat-x;
-
-
+    background: #fbf9cc url(img/bg.png) repeat-x;
     margin: 0px;
+}
+#container{
+    width: 798px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border:  1px solid #f6dd9e;
+    background-color: #fff;
 }
 .h{
   border-radius: 5px 0 0 5px ;  
@@ -16,6 +20,9 @@ body{
     border-right: 10px;
     box-shadow: 0 0 5px 2px #ffd0ad inset;
 }
+.h-sud span{
+    font-weight: normal;
+}
 h1{
     width: 300px;
     margin: 40px auto;
@@ -25,16 +32,39 @@ h1{
     color: #fff;
     font-size: 300%;
     line-height: 1;
+    border-radius: 50%;
+    text-align: center;
     text-shadow: 1px 1px 2px #307657;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-image: linear-gradient(to bottom,#6fbb9a,#4a9d79);
-    font-family: 'Limelinght',cursive;
+    font-family: 'Limelight', cursive;
 }
 h2{
     padding: 10px;
     margin-bottom: 30px;
-    border: 1 dotted #94c8b1;
+    border: 1px dotted #94c8b1;
     border-left: 10px solid #d0e35b;
     color: #6fbb9a;
+}
+
+.menu li{
+    list-style: none;
+    border: 1px solid #f00 ;
+    display: inline-block;
+    width: 180px; 
+    margin: 0 10px;
+
+}
+.menu a{
+    display: block;
+    padding: 10px;
+    background: #6fbb9a;
+    border-radius: 8px;
+    color:#fff;
+    text-decoration: none;
+}
+.meau a:hover{
+    background:  #90ddbb;
 }
 a{
     color: #df4839;
@@ -43,12 +73,46 @@ a:hover{
     color: #ff705b;
     text-decoration: none;
 }
+a[target="_blank"]::after{
+    content:url(img/ico_blank.png) ;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+a[href^="mailto"]::after{
+    content:url(img/ico_mail.png) ;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.imgL{
+    float: left;
+    margin-right: 20px;
+}
+.imgR{
+    float: right;
+    margin-left: 20px;
+}
+.clear{
+    clear: both;
+}
 header,nav,footer{
     text-align: center;
 }
-.round{
+.img-round{
     border-radius: 50%;
 }     
+.cleacfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.more{
+    text-align: right;
+}
+.more::after{
+    content: url(img/ico_arrow.png);
+    margin-left: 3px;
+    vertical-align: middle;
+}
 main{
     width: 80%;
     background-color: #fff;
@@ -56,6 +120,6 @@ main{
     padding: 40px 80px;
     border: 1px solid #f6bb9e;
 }
-#container section + section{
+#container > section + section{
     margin-top: 80px;
 }

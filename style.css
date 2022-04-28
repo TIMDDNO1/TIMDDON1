@@ -49,7 +49,6 @@ h2{
 
 .menu li{
     list-style: none;
-    border: 1px solid #f00 ;
     display: inline-block;
     width: 180px; 
     margin: 0 10px;

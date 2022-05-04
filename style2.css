@@ -24,9 +24,9 @@ h1{
     color: #fff;
     font-size: 300%;
     line-height: 1;
-    border-radius: 35%;
+    border-radius: 50%;
     text-align: center;
-    text-shadow: 1px 1px 2px #929008;
+    text-shadow: 1px 1px 2px #307657;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-image: linear-gradient(to bottom,#6fbb9a,#4a9d79);
     font-family: 'Limelight', cursive;
@@ -80,7 +80,7 @@ a[target="_blank"]::after{
     display: block;
     clear: both;
 }
-header,nav{
+header,nav,footer{
     text-align: center;
 }
 main{

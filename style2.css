@@ -38,7 +38,6 @@ h2{
     border-left: 10px solid #d0e35b;
     color: #6fbb9a;
 }
-
 .menu li{
     list-style: none;
     display: inline-block;
@@ -58,7 +57,7 @@ h2{
     background:  #90ddbb;
 }
 a{
-    color: #df4839;
+    color: #6b09c7;
 }
 a:hover{
     color: #ff705b;

@@ -1,11 +1,11 @@
 body{
     margin:0px;
 }
-nav{
+.nav{
     background-color: blanchedalmond;
     text-align: end;
 }
-nav ul{
+.nav ul{
     margin: 0px;
 }
 nav li{
@@ -13,12 +13,12 @@ nav li{
     display:inline-block;
     
 }
-nav li a{
+.nav li a{
     display: block;
     text-decoration: none;
     padding: 10px;
 }
-nav li a:hover{
+.nav li a:hover{
     background-color: coral;
     color: black;
     transition:background-color 2s linear;

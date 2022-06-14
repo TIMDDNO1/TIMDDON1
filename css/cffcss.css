@@ -1,0 +1,47 @@
+body{
+    background-color: #7ef286;
+}
+#container{
+    margin:0 auto;
+    width: 980px;
+}
+.title{
+   
+    text-align: center;
+}
+#container{
+    margin: 80px auto;
+}
+.hr{
+    width: 980px;
+    height: 1px;
+}
+.imgL{
+    float: left;
+    margin-right: 20px;
+}
+.imgR{
+    float: right;
+    margin-left: 20px;
+}
+.footer{
+    background-color: #49801e;
+    height: 40px;
+  
+}
+.middle{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.middle-img{
+    width: 600px;
+    height: 600px;
+}
+.cona{
+    padding: 40px 80px;
+    border:  1px solid #f6dd9e;
+}
+.thecenter{
+    text-align: center;
+}
